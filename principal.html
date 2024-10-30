@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tune Tracer</title>
+    <link rel="stylesheet" href="css/principal.css">
+    <script defer src="js/principal.js"></script>
+</head>
+
+<body>
+
+    <!-- Menu Lateral -->
+    <div class="sidebar">
+        <a href="#" onclick="showSection('menu')">Menu</a>
+        <a href="#" onclick="showSection('favoritos')">Favoritos</a>
+        <a href="#" onclick="showSection('teclado')">Teclado Virtual</a>
+        <a href="#" onclick="showSection('musicas')">Músicas</a>
+        <div id="label">
+            <label style=" padding: 10px 15px; color: #FFF0DE;">Outras Informações</label>
+        </div>
+        <a href="#" onclick="showSection('sobre')">Sobre Nós</a>
+        <a href="#" onclick="showSection('faq')">FAQ</a>
+    </div>
+
+    <!-- Conteúdo Principal -->
+    <div class="content">
+        <div id="menu" class="section" style="display: block;">
+            <h2>Menu</h2>
+            <button type="button" id="violao">Violão</button>
+            <button type="button" id="teclado">Teclado</button>
+            <button type="button" id="flauta">Flauta Doce</button>
+        </div>
+        <div id="favoritos" class="section">
+            <h2>Favoritos</h2>
+            <p>Favoritos.</p>
+        </div>
+        <div id="teclado" class="section">
+            <h2>Teclado Virtual</h2>
+            <p>teclado.</p>
+        </div>
+        <div id="musicas" class="section">
+            <h2>Músicas de Amostras</h2>
+            <p>música.</p>
+        </div>
+        <div id="sobre" class="section">
+            <h2>Sobre nós</h2>
+            <p>Sobre nós...</p>
+        </div>
+        <div id="faq" class="section">
+            <h2>FAQ</h2>
+            <p>FAQ</p>
+        </div>
+        <!-- divs que representam as telas genéricas de violão, teclado e flauta-doce -->
+        <div id="acorde-violao" class="section">
+            <h2>Violão</h2>
+            <div class="cardview">
+                <label>C</label>
+            </div>
+            <div class="imagemAcorde">
+                <img src="img/C-violao.jpeg" alt="acorde dó violão">
+            </div>
+            <div class="estrelaAmarela">
+                <img src="img/estrelaAmarela.png" alt="botão de favoritar" style="height: 50px;">
+            </div>
+            <div class="iconeSom">
+                <img src="img/som.png" alt="botão de exibir som" style="height: 50px;
+                margin-left: 1250px;">
+            </div>
+            <audio id="audio-som" src="audio/c_violao.mp3"></audio>
+        </div>
+        <div id="acorde-teclado" class="section">
+            <h2>Teclado</h2>
+            <p>the keyboard</p>
+        </div>
+        <div id="acorde-flauta" class="section">
+            <h2>Flauta</h2>
+            <p>the flute</p>
+        </div>
+    </div>
+
+    <script>
+        // Função para mostrar a seção selecionada e ocultar as outras
+        function showSection(sectionId) {
+            // Oculta todas as seções
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => section.style.display = 'none');
+
+            // Exibe a seção selecionada
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+
+</body>
+
+</html>

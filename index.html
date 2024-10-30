@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tune Tracer</title>
+    <link rel="stylesheet" href="css/estilizacao.css">
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    <script defer src="js/cadastro.js"></script>
+</head>
+
+<body>
+    <div id="capsula">
+        <div id="lado-esquerdo">
+            <img src="img/TuneTracer_background.png" alt="logo do Tune Tracer"
+                style="padding-left: 45%; padding-top: 5%; width: 850px; height: auto;">
+        </div>
+        <div id="lado-direito">
+            <form id="cadastroForm">
+                <h1>Cadastro</h1>
+                <div id="margem">
+                    Email<br>
+                    <input type="email" id="email" style="width: 330px">
+                    <br><br><br>Nome de usuário<br>
+                    <input type="text" id="username" style="width: 330px">
+                    <br><br><br>Senha<br>
+                    <input type="password" id="password" style="width: 330px">
+                    <br><br><br>Confirmar senha<br>
+                    <input type="password" id="confirm-password" style="width: 330px">
+                </div>
+                <div style="text-align: center;">
+                    <br><br><br>
+                    <input type="submit" value="Enviar" style="width: 150px; height: 50px; background-color: #FF9446; border-radius: 10px;">
+                    <p id="error-message" style="color: red;"></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

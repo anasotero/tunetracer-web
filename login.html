@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tune Tracer</title>
+    <link rel="stylesheet" href="css/estilizacao.css">
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    <script defer src="js/index.js"></script>
+</head>
+
+<body>
+    <!-- div capsula é um container que agrupa a div esquerda com a div direita-->
+    <div id="capsula">
+        <div id="lado-esquerdo">
+            <img src="img/TuneTracer_background.png" alt="logo do Tune Tracer"
+                style="padding-left: 45%; padding-top: 5%; width: 850px; height: auto;">
+        </div>
+        <div id="lado-direito">
+            <form action="" id = "formLogin" method="POST">
+                <h1>Login</h1>
+                <div id="margem">
+                    Nome de usuário<br>
+                    <input type="email" id = "email" style="width: 330px">
+                    <br><br><br>Senha<br>
+                    <input type="password" id = "password" style="width: 330px">
+                </div>
+                <div style="text-align: center;">
+                    <br><br><br>
+                    <input type="submit" value="Enviar" style="width: 150px; height:
+                 50px; background-color: #FF9446; border-radius: 10px;">
+                 <p id="error-message"></p>
+            </form>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
