@@ -15,7 +15,7 @@
     <div class="sidebar">
         <a href="#" onclick="showSection('menu')">Menu</a>
         <a href="#" onclick="showSection('favoritos')">Favoritos</a>
-        <a href="#" onclick="showSection('teclado')">Teclado Virtual</a>
+        <a href="#" onclick="showSection('tecladoVirtual')">Teclado Virtual</a>
         <a href="#" onclick="showSection('musicas')">Músicas</a>
         <div id="label">
             <label style=" padding: 10px 15px; color: #FFF0DE;">Outras Informações</label>
@@ -36,7 +36,7 @@
             <h2>Favoritos</h2>
             <p>Favoritos.</p>
         </div>
-        <div id="teclado" class="section">
+        <div id="tecladoVirtual" class="section">
             <h2>Teclado Virtual</h2>
             <p>teclado.</p>
         </div>
@@ -61,12 +61,14 @@
             <div class="imagemAcorde">
                 <img src="img/C-violao.jpeg" alt="acorde dó violão">
             </div>
-            <div class="estrelaAmarela">
-                <img src="img/estrelaAmarela.png" alt="botão de favoritar" style="height: 50px;">
-            </div>
-            <div class="iconeSom">
-                <img src="img/som.png" alt="botão de exibir som" style="height: 50px;
-                margin-left: 1250px;">
+            <div style="display: flex;">
+                <div id="estrelaAmarela">
+                    <img src="img/estrelaAmarela.png" alt="botão de favoritar" style="height: 50px;">
+                </div>
+                <div id="iconeSom">
+                    <img src="img/som.png" alt="botão de exibir som" style="height: 50px;
+                margin-left: 60%;">
+                </div>
             </div>
             <audio id="audio-som" src="audio/c_violao.mp3"></audio>
         </div>

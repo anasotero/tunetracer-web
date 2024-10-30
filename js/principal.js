@@ -3,7 +3,7 @@ var violao = document.getElementById("violao");
 var teclado = document.getElementById("teclado");
 var flauta = document.getElementById("flauta");
 
-// evento de botão 
+// evento de botão da escolha de instrumento
 violao.addEventListener('click', function() {
     showSection('acorde-violao');
 });
