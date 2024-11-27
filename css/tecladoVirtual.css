@@ -1,0 +1,138 @@
+.Teclado {
+    display: flex;
+    position: relative;
+}
+
+.TeclaBranca {
+    width: 60px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: white;
+    position: relative;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.TeclaBranca2 {
+    width: 60px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: white;
+    position: relative;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.TeclaBranca3 {
+    width: 60px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: white;
+    position: relative;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.TeclaBranca4 {
+    width: 60px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: white;
+    position: relative;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.TeclaBranca5 {
+    width: 60px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: white;
+    position: relative;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.TeclaBranca6 {
+    width: 60px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: white;
+    position: relative;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.TeclaBranca7 {
+    width: 60px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: white;
+    position: relative;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.TeclaPreta {
+    width: 40px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    left: 40px;
+    margin-left: -20px;
+    z-index: 1;
+}
+
+.TeclaPreta2 {
+    width: 40px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    left: 93px;
+    margin-left: -20px;
+    z-index: 1;
+}
+.TeclaPreta3 {
+    width: 40px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    left: 165px;
+    margin-left: -20px;
+    z-index: 1;
+}
+.TeclaPreta4 {
+    width: 40px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    left: 237px;
+    margin-left: -20px;
+    z-index: 1;
+}
+.TeclaPreta5 {
+    width: 40px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    left: 290px;
+    margin-left: -20px;
+    z-index: 1;
+}
+
+
+
+.TeclaBranca:hover {
+    background-color: #e0e0e0;
+}
+
+.TeclaPreta:hover {
+    background-color: #333;
+}
+.TeclaPreta2:hover {
+    background-color: #333;
+}.TeclaPreta3:hover {
+    background-color: #333;
+}.TeclaPreta4:hover {
+    background-color: #333;
+}.TeclaPreta5:hover {
+    background-color: #333;
+}

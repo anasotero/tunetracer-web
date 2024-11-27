@@ -132,3 +132,4 @@ estrelaAmarelaFlauta.addEventListener('click', function() {
 });
 // Exibe a lista de favoritos na inicialização
 exibirFavoritos();
+

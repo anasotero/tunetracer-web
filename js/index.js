@@ -34,7 +34,7 @@ document.getElementById('formLogin').addEventListener('submit', function(event) 
         .then((userCredential) => {
             console.log('Usuário logado:', userCredential.user); // Depuração
             // Redirecionar após login bem-sucedido
-            window.location.href = 'home.html';
+            window.location.href = 'principal.html';
         })
         .catch((error) => {
             console.error('Erro de autenticação:', error); // Depuração
